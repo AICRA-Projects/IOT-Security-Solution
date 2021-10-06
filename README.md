@@ -45,12 +45,16 @@ Navigate to the ZIP file, and click Open
 * The Grove - Gas Sensor(MQ2) module is useful for gas leakage detection (in home and industry). It can detect combustible gas and smoke. The output voltage from the Gas sensor increases when the concentration of gas. Sensitivity can be adjusted by rotating the potentiometer. 
 * A flame-sensor is one kind of detector which is mainly designed for detecting as well as responding to the occurrence of a fire or flame. The flame detection response can depend on its fitting. It includes an alarm system, a natural gas line, propane & a fire suppression system.
 
-## Script:
-* Two NodeMcu scripts are defined for interface with cloud datalogging 
-* Gas sensor is seperated with the first nodemcu 
-* Temperature and Flame sensor are define for detection of fire and degree celceius 
-* Real time monitoring is possible through thingspeak id : https://thingspeak.com/channels/1395047
-## Reference :
+## Methods :
+### Step 1: Two NodeMcu scripts are defined for interface with cloud datalogging 
+### Step 2: Gas sensor is seperated with the first nodemcu 
+### Step 3: Temperature and Flame sensor are define for detection of fire and degree celceius 
+### Step 4: Real time monitoring is possible through thingspeak id : https://thingspeak.com/channels/1395047
+### Step 4 : 
+Thingspeak Login : kumarimira870@gmail.com
+password: Timts@123
+
+## Reference : 
 * https://thingspeak.com/
 * https://en.wikipedia.org/wiki/NodeMCU
 
