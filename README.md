@@ -1,6 +1,16 @@
 # IOT-Security-Solution
 IoT can assist with disaster management techniques to minimize the damages in Industry . It can even stop a manmade disaster from happening in the first place. The use of IoT in disaster management can help transform our current reactive disaster management approach into a proactive one.
 This Project is based on Gas and fire disaster managment through IOT by cloud connection which is very essential for today's manufacturing industry . It has three sensors which are Gas Sensor (MQ) , Flame sensor and Temperature which helps to monitor the warehouse and manufacturing unit to provide safety and security form destructive disaster.
+## Circuit diagram
+Raspberry pi with screen fig(1)
+![AI Vehcile Detection System WITHOUT CAM](https://user-images.githubusercontent.com/42414598/137718894-d8c533b8-f98e-432d-b8ac-e735b715563c.jpg)
+
+NodeMCU with CO2 GAS fig(2)
+![Gas Sensor with NodeMCU](https://user-images.githubusercontent.com/42414598/137718902-c79faed1-f30f-47b2-adda-fd01ca214f9f.jpg)
+
+NodeMCU with Flame sensor and temperature detection fig(3)
+![lm35 flame sensor NodeMCU](https://user-images.githubusercontent.com/42414598/137718903-9bfe3e93-4ed0-467f-9423-7a46cddd43a0.jpg)
+
 ## Hardware:
 * NodeMcu ESP8266
 * 5V USB Adaptor 
