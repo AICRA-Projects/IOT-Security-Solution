@@ -1,6 +1,32 @@
 # IOT-Security-Solution
 IoT can assist with disaster management techniques to minimize the damages in Industry . It can even stop a manmade disaster from happening in the first place. The use of IoT in disaster management can help transform our current reactive disaster management approach into a proactive one.
 This Project is based on Gas and fire disaster managment through IOT by cloud connection which is very essential for today's manufacturing industry . It has three sensors which are Gas Sensor (MQ) , Flame sensor and Temperature which helps to monitor the warehouse and manufacturing unit to provide safety and security form destructive disaster.
+## Raspberry Pi Touch Display
+The Raspberry Pi Touch Display is an LCD display which connects to the Raspberry Pi through the DSI connector. In some situations, it allows for the use of both the HDMI and LCD displays at the same time (this requires software support).
+![MPI7001-02](https://user-images.githubusercontent.com/42414598/139531359-9877cb44-d8b9-4d0e-bde0-3d61ff9f2ede.jpg)
+
+
+## Board Support
+# Step 1, Install Raspbian official image
+Download the latest image from the official download.
+Install the system according to the official tutorial steps.
+# Step 2, modify the “config.txt”
+After the programming of Step1 is completed, open the config.txt file of TF card root directory and
+add the following code at the end of the file, save and eject Micro SD Card safely:
+max_usb_current=1
+hdmi_force_hotplug=1
+config_hdmi_boost=7
+hdmi_group=2
+hdmi_mode=87
+hdmi_drive=1
+display_rotate=0
+hdmi_cvt 1024 600 60 6 0 0 0
+# Step 3, Drive the 5inch HDMI Display-B with the Raspberry Pi
+Insert the TF Card to Raspberry Pi, connect the Raspberry Pi and LCD by HDMI cable; connect USB cable to one of the four USB ports of Raspberry Pi,
+and connect the other end of the USB cable to the USB port of the LCD; then supply power to Raspberry Pi; after that if the display and touch both are OK,
+it means drive successfully (please use the full 2A for power supply).
+
+
 ## Circuit diagram
 Raspberry pi with screen fig(1)
 ![AI Vehcile Detection System WITHOUT CAM](https://user-images.githubusercontent.com/42414598/137718894-d8c533b8-f98e-432d-b8ac-e735b715563c.jpg)
